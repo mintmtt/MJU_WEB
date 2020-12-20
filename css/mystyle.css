@@ -1,48 +1,74 @@
-.navbar{
-background-color: rgb(94, 211, 79);
-height: 10rem;
+.navbar {
+    background-color: rgb(94, 211, 79);
+    height: 10rem;
 
 }
 
-.maejo_header{
+.maejo_header {
     height: 100px;
     margin-left: 1rem;
-    
+
 }
 
-.maejo_text{
-font-size: 50px;
-font-weight: bold;
-color: white;
-text-shadow: 2px 2px 4px black;
+.maejo_text {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px black;
 }
 
-.maejo_eng_text{
+.maejo_eng_text {
     font-size: 40px;
     font-weight: bold;
     color: white;
     text-shadow: 2px 2px 4px black;
-    }
-
-    .navbar_text{
-        background-color: rgb(200, 243, 194);
-        }
-
-.im1{
-    max-width: 100%;
-  max-height: 100%;
 }
 
-.im2{
-    max-width: 100%;
-  max-height: 100%;
+.navbar_text {
+    background-color: rgb(200, 243, 194);
 }
 
-.im3{
+.im1 {
     max-width: 100%;
-  max-height: 100%;
+    max-height: 100%;
 }
 
-.navbar_im{
+.im2 {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.im3 {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.navbar_im {
     margin-left: 13rem;
+}
+
+.nbabout {
+    background-color: green;
+    color: white
+}
+
+.aboutss {
+    border-right: solid 10px white
+}
+
+.agencyss {
+    border-right: solid 10px white
+}
+
+.servicess {
+    border-right: solid 10px white
+}
+
+.lineab{
+   border-bottom: 3px brown solid;
+}
+
+.textab{
+
+    font-size: 20px;
 }
