@@ -1,27 +1,29 @@
-.navbar {
+ .navbar {
     background-color: rgb(94, 211, 79);
-    height: 11rem;
+    
+    background-position: center;
+    position: relative;
+    
 
 }
 
 .maejo_header {
     height: 60px;
-    margin-left: 4rem;
+    margin-left: 9.5rem;
 
 }
 
 .maejo_text {
-
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
-    color: white;
+    color:whitesmoke;
     text-shadow: 4px 4px 8px black;
 }
 
 .maejo_eng_text {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: whitesmoke;
     text-shadow: 4px 4px 8px black;
 }
 
@@ -46,36 +48,7 @@
 
 .navbar_im {
     margin-left: 13rem;
-}
-
-.nbabout {
-    background-color: rgb(129, 192, 129);
-    color: white
-}
-
-.aboutss {
-    border-left: solid 60px white;
-    border-right: solid 60px white;
-    font-size: 15px;
-}
-
-.agencyss {
-    border-right: solid 60px white;
-    border-left: solid 60px white;
-    font-size: 15px;
-
-}
-
-.servicess {
-    border-right: solid 60px white;
-    border-left: solid 60px white;
-    font-size: 15px;
-}
-
-.universs {
-    border-left: solid 60px white;
-    border-right: solid 60px white;
-    font-size: 15px;
+    
 }
 
 
@@ -97,9 +70,21 @@
     font-size: 20px;
 }
 
-.btext{
+.btext {
     font-size: 18px;
     margin-top: 1.5rem;
+    padding-top: 2;
+}
+
+.ctext{
+    font-size: 17px;
+    padding-left: 1;
+}
+
+.dtext{
+    font-size: 17px;
+    padding-left: 1;
+    text-align: left;
 }
 
 .lineaa {
@@ -109,14 +94,23 @@
 }
 
 .sp1 {
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .framebg {
     padding-top: 1rem;
-    background-color: rgb(211, 211, 211);
-    margin-top: 1rem;
+    background-color: rgb(245, 255, 235);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
+
+.framebg1{
+    padding-top: 1rem;
+    background-color: rgb(223, 248, 197);
+    margin-top: 2rem;
+    
+}
+
 
 .imj {
     height: 2.5rem;
@@ -158,16 +152,16 @@
     padding-bottom: 1rem;
 }
 
-.te3{
+.te3 {
     border-bottom: black dotted;
 }
 
-.te4{
+.te4 {
     border-bottom: 2px black solid;
     padding-bottom: 1rem;
 }
 
-.sp2{
+.sp2 {
     text-align: center;
     font-size: 25px;
     margin-bottom: 1rem;
@@ -175,16 +169,79 @@
     padding-top: 2rem;
 }
 
-.sp3{
+.sp3 {
     font-size: 20px;
 }
 
-.sp4{
+.sp4 {
     font-size: 15px;
 }
 
-.ff{
+.ff {
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    padding: 0 20px;
+    background-color: white;
+    top: 0;
+    left: 0;
+  }
+  
+  .nav {
+  margin: 0 auto 0 100px;
+  
+  }
+  .nav ul {
+  display: flex;
+  list-style-type: none;
+  color: black;
+  }
+  
+  .separator {
+  margin: 0 10px;;
+  }
+  
+  .separator1 {
+    margin: 0 100px;;
+    }
+  
+    .separator2 {
+      margin: 0 5px;;
+      }
+  
+   .navbar_logo {
+    height: 100px;
+    text-align: left;
+  }
+  .navbar_logo_center{
+    height: 70px;
+    /* margin-left: 25rem; */
+  }
+       
+  .sp5{
     padding-top: 1rem; 
     margin-top: 1rem;
-    margin-left: 14rem;
+  }
+
+
+  .sp6{
+      padding-top: 2rem;
+  }
+  
+  
+  .tabmini {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
 }
