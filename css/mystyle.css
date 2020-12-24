@@ -5,12 +5,13 @@
 }
 
 .maejo_header {
-    height: 90px;
+    height: 60px;
     margin-left: 4rem;
 
 }
 
 .maejo_text {
+
     font-size: 40px;
     font-weight: bold;
     color: white;
@@ -53,36 +54,137 @@
 }
 
 .aboutss {
-    border-right: solid 100px white
+    border-left: solid 60px white;
+    border-right: solid 60px white;
+    font-size: 15px;
 }
 
 .agencyss {
-    border-right: solid 100px white
+    border-right: solid 60px white;
+    border-left: solid 60px white;
+    font-size: 15px;
+
 }
 
 .servicess {
-    border-right: solid 60px white
+    border-right: solid 60px white;
+    border-left: solid 60px white;
+    font-size: 15px;
 }
 
 .universs {
-    border-left: solid 50px white
+    border-left: solid 60px white;
+    border-right: solid 60px white;
+    font-size: 15px;
 }
 
 
-.liab1{
-   border-bottom: 3px brown solid;
+.liab1 {
+    border-bottom: 3px rgb(53, 141, 2) solid;
 }
 
-.teab1{
+.teab1 {
 
     font-size: 25px;
 }
 
-.imab{
+.imab {
     margin-bottom: 2rem;
 }
 
-.atext{
+.atext {
     margin-top: 1.5rem;
     font-size: 20px;
+}
+
+.btext{
+    font-size: 18px;
+    margin-top: 1.5rem;
+}
+
+.lineaa {
+    border-bottom: 3px rgb(53, 141, 2) solid;
+    text-align: center;
+    font-size: 23px;
+}
+
+.sp1 {
+    margin-top: 1rem;
+}
+
+.framebg {
+    padding-top: 1rem;
+    background-color: rgb(211, 211, 211);
+    margin-top: 1rem;
+}
+
+.imj {
+    height: 2.5rem;
+    margin-left: 1rem;
+    margin-top: 3rem;
+
+}
+
+.imj1 {
+    height: 2.5rem;
+    margin-left: 0.5rem;
+    margin-top: 3rem;
+
+}
+
+.imj2 {
+    width: 2.7rem;
+    height: 2.5rem;
+    margin-left: 0.5rem;
+    margin-top: 3rem;
+}
+
+
+
+.contact {
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 1rem;
+    border-bottom: 2px black solid;
+}
+
+
+.te1 {
+    font-size: 14px;
+    padding-bottom: 0.3rem;
+}
+
+.te2 {
+    padding-bottom: 1rem;
+}
+
+.te3{
+    border-bottom: black dotted;
+}
+
+.te4{
+    border-bottom: 2px black solid;
+    padding-bottom: 1rem;
+}
+
+.sp2{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 1rem;
+    border-bottom: 2px rgb(53, 141, 2) solid;
+    padding-top: 2rem;
+}
+
+.sp3{
+    font-size: 20px;
+}
+
+.sp4{
+    font-size: 15px;
+}
+
+.ff{
+    padding-top: 1rem; 
+    margin-top: 1rem;
+    margin-left: 14rem;
 }
